@@ -1,0 +1,11 @@
+2021-01-07T17:56:05+00:00 CRITICAL Uncaught Error: Class 'ResponsiveMenu\Management\OptionManager' not found in /home/motalkwithmoswag/public_html/wp-content/plugins/responsive-menu/config/services.php:17
+Stack trace:
+#0 /home/motalkwithmoswag/public_html/wp-content/plugins/responsive-menu/app/Container/Container.php(27): {closure}(Object(ResponsiveMenu\Container\Container))
+#1 /home/motalkwithmoswag/public_html/wp-content/plugins/responsive-menu/config/services.php(42): ResponsiveMenu\Container\Container->offsetGet('option_manager')
+#2 /home/motalkwithmoswag/public_html/wp-content/plugins/responsive-menu/migration.php(5): get_responsive_menu_service('option_manager')
+#3 /home/motalkwithmoswag/public_html/wp-includes/class-wp-hook.php(287): {closure}('')
+#4 /home/motalkwithmoswag/public_html/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#5 /home/motalkwithmoswag/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/motalkwithmoswag/public_html/wp-settings.php(546): do_action('init')
+#7 /home/mota in /home/motalkwithmoswag/public_html/wp-content/plugins/responsive-menu/config/services.php on line 17
+
